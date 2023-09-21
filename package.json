@@ -1,0 +1,18 @@
+{
+  "name": "github-copilot",
+  "version": "1.0.0",
+  "description": "Demo of GitHub Copilot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "author": "Anders Qvist <anders.qvist@xenit.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
